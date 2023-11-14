@@ -1,3 +1,7 @@
 open-cv-test/input
 open-cv-test/output
 .DS_Store
+open-cv-test/grayscale/output
+open-cv-test/grayscale/input
+
+
