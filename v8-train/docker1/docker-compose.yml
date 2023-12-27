@@ -1,0 +1,9 @@
+version: '3'
+services:
+  sakai-yolov8:
+    restart: always
+    build: .
+    container_name: 'sakai-yolo-train'
+    tty: true
+    volumes:
+      - ./mount:/mount
